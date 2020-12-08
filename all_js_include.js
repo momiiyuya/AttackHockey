@@ -38,8 +38,8 @@ function importPlane() {
 if (! new Array().push) return false;
     var scripts = new Array(
         // ファイル名
-        "white",
-        "black"
+        "White",
+        "Black"
     );
     for (var i=0; i<scripts.length; i++) {
         document.write('<script type="text/javascript" src="./class/plane/' +scripts[i] +'.js" charset="utf-8"></script>');
